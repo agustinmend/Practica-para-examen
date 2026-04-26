@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "vitest.explorer",
+    "ms-vscode.live-server",
+    "ritwickdey.LiveServer",
+    "ms-vscode.vscode-typescript-next",
+    "andrejunges.Handlebars",
+    "chuckjonas.handlebars-eslint",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "ecmel.vscode-html-css",
+    "Zignd.html-css-class-completion",
+    "pranaygp.vscode-css-peek",
+    "naumovs.color-highlight",
+    "GitHub.copilot",
+    "GitHub.copilot-chat"
+  ],
+  "unwantedRecommendations": [
+    "GitHub.copilot-labs"
+  ]
+}

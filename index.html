@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack-ish - Examen Final WEB-ISW-233</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="workspaces">
+        <div class="workspace-icon active">U</div>
+        <div class="workspace-icon plus">+</div>
+      </aside>
+
+      <aside class="sidebar">
+        <header class="sidebar-head">
+          <h1 class="ws-title">UCB Web 233</h1>
+          <button class="new-msg-btn" title="Nuevo mensaje">✎</button>
+        </header>
+
+        <section class="section">
+          <h2 class="section-title">Canales</h2>
+          <ul class="channel-list" id="channel-list">
+            <li class="channel-item active" data-channel-id="c-general">
+              <span class="hash">#</span>
+              <span class="ch-name">general</span>
+            </li>
+            <li class="channel-item" data-channel-id="c-frontend">
+              <span class="hash">#</span>
+              <span class="ch-name">frontend</span>
+              <span class="badge">3</span>
+            </li>
+            <li class="channel-item" data-channel-id="c-design-patterns">
+              <span class="hash">#</span>
+              <span class="ch-name">design-patterns</span>
+              <span class="badge">1</span>
+            </li>
+            <li class="channel-item" data-channel-id="c-random">
+              <span class="hash">#</span>
+              <span class="ch-name">random</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Mensajes Directos</h2>
+          <ul class="dm-list">
+            <li class="dm-item"><span class="dot online"></span>Ana Lopez</li>
+            <li class="dm-item"><span class="dot away"></span>Bruno Rojas</li>
+            <li class="dm-item"><span class="dot offline"></span>Carla Vega</li>
+          </ul>
+        </section>
+      </aside>
+
+      <main class="main">
+        <header class="chat-head">
+          <div class="chat-head-left">
+            <h2 class="chat-title">
+              # <span id="current-channel-name">general</span>
+            </h2>
+            <p class="chat-topic" id="current-channel-topic">
+              Anuncios generales del curso
+            </p>
+          </div>
+          <div class="chat-head-right">
+            <span class="member-count" id="member-count">4 miembros</span>
+          </div>
+        </header>
+
+        <section class="messages" id="messages">
+          <div class="message">
+            <div class="avatar">AL</div>
+            <div class="msg-body">
+              <div class="msg-meta">
+                <strong class="msg-author">Ana Lopez</strong>
+                <span class="msg-time">09:00</span>
+              </div>
+              <p class="msg-text">Bienvenidos al examen final.</p>
+            </div>
+          </div>
+          <div class="message">
+            <div class="avatar">BR</div>
+            <div class="msg-body">
+              <div class="msg-meta">
+                <strong class="msg-author">Bruno Rojas</strong>
+                <span class="msg-time">09:02</span>
+              </div>
+              <p class="msg-text">Suerte a todos!</p>
+            </div>
+          </div>
+          <div class="message">
+            <div class="avatar">JJ</div>
+            <div class="msg-body">
+              <div class="msg-meta">
+                <strong class="msg-author">Jose Jesus</strong>
+                <span class="msg-time">09:05</span>
+              </div>
+              <p class="msg-text">Gracias profe.</p>
+            </div>
+          </div>
+        </section>
+
+        <footer class="composer">
+          <input
+            type="text"
+            id="composer-input"
+            class="composer-input"
+            placeholder="Escribe un mensaje en #general"
+          />
+          <button id="composer-send" class="composer-send">Enviar</button>
+        </footer>
+      </main>
+
+      <aside class="members" id="members-panel">
+        <h3 class="members-title">Miembros</h3>
+        <ul class="member-list" id="member-list">
+          <li class="member-item">
+            <div class="avatar small">JJ</div>
+            <span>Jose Jesus</span>
+          </li>
+          <li class="member-item">
+            <div class="avatar small">AL</div>
+            <span>Ana Lopez</span>
+          </li>
+          <li class="member-item">
+            <div class="avatar small">BR</div>
+            <span>Bruno Rojas</span>
+          </li>
+          <li class="member-item">
+            <div class="avatar small">CV</div>
+            <span>Carla Vega</span>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>

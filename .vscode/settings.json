@@ -1,0 +1,58 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "html.autoClosingTags": true,
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "html.suggest.html5": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "css.completion.completePropertyWithSemicolon": true,
+  "css.completion.triggerPropertyValueCompletion": true,
+  "css.validate": true,
+  "emmet.includeLanguages": {
+    "handlebars": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[handlebars]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  "chat.disableAIFeatures": false,
+  "chat.commandCenter.enabled": false,
+  "chat.agent.enabled": false,
+  "chat.tools.autoApprove": false,
+  "chat.experimental.offerSetup": false,
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "yaml": false,
+    "env": false
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.chat.codesearch.enabled": false,
+  "github.copilot.chat.agent.enabled": false,
+  "github.copilot.chat.edits.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.advanced": {
+    "inlineSuggestCount": 1,
+    "listCount": 3
+  },
+
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "telemetry.telemetryLevel": "off",
+  "chat.mcp.access": "none",
+  "githubPullRequests.ignoredPullRequestBranches": ["main"]
+}

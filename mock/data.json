@@ -1,0 +1,112 @@
+{
+  "currentUser": {
+    "id": "u-1",
+    "name": "Jose Jesus",
+    "handle": "@jose",
+    "avatar": "JJ",
+    "status": "active"
+  },
+  "workspace": {
+    "id": "w-1",
+    "name": "UCB Web 233",
+    "icon": "U"
+  },
+  "channels": [
+    {
+      "id": "c-general",
+      "name": "general",
+      "topic": "Anuncios generales del curso",
+      "unread": 0,
+      "members": ["u-1", "u-2", "u-3", "u-4"],
+      "messages": [
+        {
+          "id": "m-1",
+          "authorId": "u-2",
+          "text": "Bienvenidos al examen final.",
+          "time": "09:00"
+        },
+        {
+          "id": "m-2",
+          "authorId": "u-3",
+          "text": "Suerte a todos!",
+          "time": "09:02"
+        },
+        {
+          "id": "m-3",
+          "authorId": "u-1",
+          "text": "Gracias profe.",
+          "time": "09:05"
+        }
+      ]
+    },
+    {
+      "id": "c-frontend",
+      "name": "frontend",
+      "topic": "Discusión sobre frontend",
+      "unread": 3,
+      "members": ["u-1", "u-2", "u-4"],
+      "messages": [
+        {
+          "id": "m-10",
+          "authorId": "u-4",
+          "text": "Alguien probó Handlebars con Vite?",
+          "time": "10:10"
+        },
+        {
+          "id": "m-11",
+          "authorId": "u-2",
+          "text": "Sí, hay un plugin que carga .hbs como string.",
+          "time": "10:12"
+        },
+        {
+          "id": "m-12",
+          "authorId": "u-4",
+          "text": "Genial, voy a probarlo.",
+          "time": "10:13"
+        }
+      ]
+    },
+    {
+      "id": "c-design-patterns",
+      "name": "design-patterns",
+      "topic": "Patrones de diseño en JS/TS",
+      "unread": 1,
+      "members": ["u-1", "u-3"],
+      "messages": [
+        {
+          "id": "m-20",
+          "authorId": "u-3",
+          "text": "Observer + Proxy = reactividad.",
+          "time": "11:00"
+        },
+        {
+          "id": "m-21",
+          "authorId": "u-1",
+          "text": "También sirve Command para deshacer acciones.",
+          "time": "11:05"
+        }
+      ]
+    },
+    {
+      "id": "c-random",
+      "name": "random",
+      "topic": "Conversación libre",
+      "unread": 0,
+      "members": ["u-1", "u-2", "u-3", "u-4"],
+      "messages": [
+        {
+          "id": "m-30",
+          "authorId": "u-2",
+          "text": "Café? ☕",
+          "time": "15:30"
+        }
+      ]
+    }
+  ],
+  "users": [
+    { "id": "u-1", "name": "Jose Jesus", "handle": "@jose", "avatar": "JJ", "status": "active" },
+    { "id": "u-2", "name": "Ana Lopez", "handle": "@ana", "avatar": "AL", "status": "active" },
+    { "id": "u-3", "name": "Bruno Rojas", "handle": "@bruno", "avatar": "BR", "status": "away" },
+    { "id": "u-4", "name": "Carla Vega", "handle": "@carla", "avatar": "CV", "status": "offline" }
+  ]
+}

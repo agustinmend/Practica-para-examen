@@ -1,0 +1,46 @@
+.sidebar {
+  background: #3f0e40;
+  color: #d1d2d3;
+  padding: 8px 0;
+  overflow-y: auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-bottom: 1px solid #522653;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  &__btn-new {
+    background: #fff;
+    color: #3f0e40;
+    border: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  &__section {
+    padding: 12px 8px;
+  }
+
+  &__section-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #bcabbc;
+    padding: 4px 8px;
+    letter-spacing: 0.5px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+}

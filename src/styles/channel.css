@@ -1,0 +1,31 @@
+.channel {
+  padding: 6px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+
+  &:hover {
+    background: #350d36;
+  }
+
+  &--active {
+    background: #1164a3;
+    color: #fff;
+  }
+
+  &__hash {
+    opacity: 0.7;
+  }
+
+  &__badge {
+    margin-left: auto;
+    background: #cd2553;
+    color: #fff;
+    font-size: 11px;
+    padding: 1px 6px;
+    border-radius: 10px;
+  }
+}

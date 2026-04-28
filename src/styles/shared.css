@@ -1,0 +1,30 @@
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+
+  &--online { background: #2bac76; }
+  &--away { background: #ecb22e; }
+  &--offline { background: #888; }
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  background: #4a154b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 13px;
+  flex-shrink: 0;
+
+  &--small {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+  }
+}

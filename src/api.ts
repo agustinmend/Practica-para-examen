@@ -1,6 +1,5 @@
-import { AppState } from "./types/appState";
-
-export const fetchAppData = async (): Promise<AppState> => {
+import { AppData } from "./types/appData";
+export const fetchAppData = async (): Promise<AppData> => {
   const response = await fetch('/mock/data.json');
   
   if (!response.ok) {
@@ -8,5 +7,5 @@ export const fetchAppData = async (): Promise<AppState> => {
   }
   
   const data = await response.json();
-  return data as AppState;
+  return data as AppData;
 };
